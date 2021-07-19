@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+# Project exclude paths
+/src/lib/balanced/balanced.js
+/src/lib/balanced/balanced.js.map
+/src/main.js
+/src/main.js.map

@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext","DOM"],
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmit": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+
+    "rootDir": "src",
+    "allowJs": true,
+    "isolatedModules": true,
+    "pretty": true,
+    "listFiles": false,
+    "listEmittedFiles": true,
+    "diagnostics": false
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test"
+  ],
+  "include": [
+    "./src",
+    "./src/lib/balanced/balanced.ts"
+  ]
+}

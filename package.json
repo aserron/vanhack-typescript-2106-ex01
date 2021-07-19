@@ -1,0 +1,27 @@
+{
+  "private" : true,
+  "version" : "0.9.0",
+  "type"    : "module",
+  "main"   : "./src/main.js",
+  "exports": {
+    ".": "./src/main.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.19",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "esm": "^3.2.25",
+    "jest": "^27.0.5",
+    "mocha": "^9.0.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.3.7"
+  }
+}
